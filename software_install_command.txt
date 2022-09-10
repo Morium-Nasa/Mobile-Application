@@ -6,3 +6,15 @@ npm install -g expo-cli
 after complete instilization open a file use cmd 
 then;
 expo init my_project( select blank )
+*****************-************************
+
+vs terminal command:
+npm start
+w
+npx expo install react-native-web@~0.18.7 react-dom@18.0.0 @expo/webpack-config@^0.17.0
+after instalization 
+then;
+npm start
+w
+****************-***************************
+npm install(if someone delete "node_modules" for there project)
