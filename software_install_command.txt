@@ -1,0 +1,4 @@
+npm -v
+node -v
+npm install -g react-native-cli
+npm install -g expo-cli
