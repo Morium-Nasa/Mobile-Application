@@ -18,3 +18,5 @@ npm start
 w
 ****************-***************************
 npm install(if someone delete "node_modules" for there project)
+************************-*************************
+javascript er ex5 version, ex6 version
