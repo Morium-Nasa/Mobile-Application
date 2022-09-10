@@ -2,3 +2,7 @@ npm -v
 node -v
 npm install -g react-native-cli
 npm install -g expo-cli
+
+after complete instilization open a file use cmd 
+then;
+expo init my_project( select blank )
