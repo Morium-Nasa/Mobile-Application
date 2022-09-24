@@ -1,0 +1,67 @@
+//let a=5;
+//var  x = 10;
+//const c=30;
+// Here x is 10
+//console.log(Number);
+
+/*const b ={
+    fName:"jogn"
+};
+b.lName = "Doe";
+console.log(b);*/
+
+
+/*function createMachine(name,status){
+    return {name, status};
+}
+
+let text_1 = `First text no one`;
+let text_2 = `second text no two`;
+
+let merge = `That is ${text_1} ${text_2}`;
+
+console.log(merge);*/
+
+/*function createMachine(name,status){
+    return {name, status};
+}
+
+let lName = `First text no one`;
+let fName = `second text no two`;
+
+let fullName = `Your name is ${lName} ${fName}`;
+
+console.log(person(fullName,"Active"));*/
+
+/*let person = {
+    firstName:'jogn',
+    lastName:'doel'
+};
+
+let firstName = person.firstName;
+let lastName = person.lastName;
+console.log(firstName);*/
+
+/*let person = {
+    firstName:'jogn',
+    lastName:'doel',
+    middleName:'smith'
+};
+
+let{firstName:fName, lastName:lName, middleName:mName}= person;
+
+console.log(lName);*/
+
+
+/*class person{
+    constructor(name){
+        this.name = name;
+    }
+    getName(){
+        return this.name;
+    }
+}
+
+let person = new person("jogn");
+let name = person.getName();
+console.log(name);*/
