@@ -1,0 +1,51 @@
+
+import React from 'react';
+import { View, Image, StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 50,
+  },
+  tinyLogo: {
+    width: 50,
+    height: 80,
+  },
+  tiny:{
+    width: 60,
+    height: 100,
+    justifyContent: 'center',
+    /*flex: 1*/
+    alignItems: 'center'
+  },
+  logo: {
+    width: 40,
+    height: 58,
+
+
+  },
+});
+
+const DisplayAnImage = () => {
+  return (
+    <View style={styles.container}>
+      <Image
+        style={styles.tinyLogo}
+        source={require('./assets/th.jpg')}
+      />
+      <Image
+        style={styles.tiny}
+        source={
+          require('./assets/th.jpg')
+        }
+      />
+      <Image
+        style={styles.logo}
+        source={
+          require('./assets/th.jpg')
+        }
+      />
+    </View>
+  );
+}
+
+export default DisplayAnImage;
